@@ -5,32 +5,20 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Gallery</title>
+    <!-- Підключення basicLightbox CSS -->
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/basiclightbox@5.0.4/dist/basicLightbox.min.css" />
-    <style>
-        .gallery {
-            display: flex;
-            flex-wrap: wrap;
-            gap: 10px;
-            list-style: none;
-            padding: 0;
-        }
-
-        .gallery-item {
-            flex: 1 1 calc(33.33% - 10px);
-        }
-
-        .gallery-image {
-            width: 100%;
-            height: auto;
-            object-fit: cover;
-        }
-    </style>
+    <!-- Підключення стилів -->
+    <link rel="stylesheet" href="css/styles.css" />
 </head>
 
 <body>
+    <!-- Контейнер галереї -->
     <ul class="gallery"></ul>
+
+    <!-- Підключення basicLightbox JS -->
     <script src="https://cdn.jsdelivr.net/npm/basiclightbox@5.0.4/dist/basicLightbox.min.js"></script>
-    <script src="gallery.js"></script>
+    <!-- Підключення логіки -->
+    <script src="js/gallery.js"></script>
 </body>
 
 </html>
